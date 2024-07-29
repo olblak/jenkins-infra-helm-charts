@@ -14,7 +14,7 @@ dependencies:
 - name: httpd
   condition: httpd.enabled
   repository: https://jenkins-infra.github.io/helm-charts
-  version: 0.4.1
+  version: 1.0.0
 - name: rsyncd
   condition: rsyncd.enabled
   repository: https://jenkins-infra.github.io/helm-charts
